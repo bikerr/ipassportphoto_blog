@@ -1,6 +1,7 @@
 ---
+title: 日本簽證照片
+description: 日本簽證照片的尺寸和要求詳解
 layout: default
-title: japanese-visa-photo
 ---
 
 ## 日本簽證照片全指南：規格、尺寸與拍攝要點解析

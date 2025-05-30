@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+    {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}">
+    {% else %}
+    <meta name="description" content="{{ site.description | escape }}">
+    {% endif %}
+
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header>
+    <h1>ipassportphoto</h1>
+    <nav>
+        <a href="/">首页</a> |
+        <a href="/japannese-visa-photo/">日签</a> |
+        <a href="/us-visa-photo/">美签</a>
+    </nav>
+</header>
+
+<main>
+    {{ content }}
+</main>
+
+<footer>
+    <p>© 2025 ipassportphoto</p>
+</footer>
+</body>
+</html>
