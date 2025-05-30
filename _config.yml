@@ -1,0 +1,6 @@
+title: ipassportphoto blog
+description: ipassportphoto
+author: biker
+url: "https://bikerr.github.io"
+baseurl: ""  # 如果你是放在 username.github.io 下，否则改为 "/your-repo-name"
+theme: minima
